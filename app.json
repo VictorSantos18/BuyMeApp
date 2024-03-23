@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "BuyMeApp",
+    "slug": "BuyMeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7D32CE"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#7D32CE"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.victorsalles19.BuyMeApp"
+    },
+    "scheme": "buymeapp",
+    "plugins": [
+      [
+        "expo-image-picker",
+        "expo-camera"
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a869475-d55e-4b4a-b216-69e01079c53d"
+      }
+    }
+  }
+}
