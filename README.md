@@ -26,3 +26,4 @@ e por fim, para rodar o projeto:
 $ npx expo start
 ```
 escaneie o codigo gerado no terminal do projeto e pronto!
+
