@@ -27,3 +27,11 @@ $ npx expo start
 ```
 escaneie o codigo gerado no terminal do projeto e pronto!
 
+# Imagens do projeto
+
+<div align="center">
+ <img  src="https://github.com/VictorSantos18/BuyMeApp/blob/main/assets/1.jpeg" width="240"/>
+ <img src="https://github.com/VictorSantos18/BuyMeApp/blob/main/assets/2.jpeg" width="240"/>
+ <img  src="https://github.com/VictorSantos18/BuyMeApp/blob/main/assets/3.jpeg" width="240"/>
+ <img src="https://github.com/VictorSantos18/BuyMeApp/blob/main/assets/4.jpeg" width="240"/>
+</div>
