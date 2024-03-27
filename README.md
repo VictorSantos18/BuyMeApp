@@ -11,6 +11,10 @@ dentro das categorias existentes, e pode ficar por dentro de todos os outros pro
 <span id="requisitos">
 
 # :gear: Rodando o projeto
+
+Use um emulador ou leia o QRCode do terminal por um dispositivo físico.<br>
+OBS: o device físico precisa ter o app "Expo Go" e estar na mesma rede que seu computador.
+
 Para rodar a aplicação é bem simples:
 ```bash
 # Para instalar as dependências
@@ -21,3 +25,4 @@ e por fim, para rodar o projeto:
 # Para rodar o projeto
 $ npx expo start
 ```
+escaneie o codigo gerado no terminal do projeto e pronto!
