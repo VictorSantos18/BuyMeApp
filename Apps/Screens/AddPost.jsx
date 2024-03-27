@@ -113,7 +113,7 @@ export default function AddPost() {
       return;
     }
     if (hasPermission === false) {
-      // Se o usuário negou a permissão, você pode exibir uma mensagem ou solicitar novamente
+      // Se o usuário negou a permissão, exibe uma mensagem ou solicitar novamente
       console.log('Acesso à câmera negado');
       return;
     }

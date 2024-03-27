@@ -16,10 +16,10 @@ export default function ProductDetail() {
   useEffect(() => {
     console.log(params)
     params && setProduct(params.product)
-  }, [])
+  }, [params])
 
   const sendEmailMessage = () => {
-    const subject = 'Regarding' + product.title;
+    const subject = product.title;
     const body = "Oi!" + product.userName + "\n" + "me interessei por este produto"
     Linking.openURL('mailto:' + product.userEmail + "?subject=" + subject + "&body=" + body)
   }
